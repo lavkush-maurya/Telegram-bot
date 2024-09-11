@@ -4,7 +4,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 // Create a new bot using the token from the .env file
-const bot = new Bot(process.env.BOT_TOKEN as string);
+const bot = new Bot("7449228499:AAGPhVNbK9aGHWbcj1Lkp2W_t_HtvuAThLU");
 
 // Parse authorized chat IDs from the environment variable
 const authorizedChatIds = [851092968];

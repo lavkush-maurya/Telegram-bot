@@ -23,7 +23,4 @@ jobs:
         run: npm install
 
       - name: Run bot
-        env:
-          BOT_TOKEN: "7385284091:AAFNrGKZQI4fiMcOw_3hch42L8-gWQ3h_No"
-          # AUTHORIZED_CHAT_IDS: [851092968, 784548419]
         run: npm start
