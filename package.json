@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "grammy": "^1.11.2"
+    "grammy": "^1.11.2",
+    "nodemon": "^3.1.4"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
