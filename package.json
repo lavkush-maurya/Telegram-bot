@@ -2,7 +2,7 @@
   "name": "tg-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Bot.ts",
   "scripts": {
     "start": "ts-node ./Bot.ts",
     "dev": "ts-node-dev ./Bot.ts",
