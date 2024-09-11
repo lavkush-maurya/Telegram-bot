@@ -22,16 +22,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Log environment variables (for debugging)
-        run: |
-          echo "BOT_TOKEN=${{ secrets.BOT_TOKEN }}" # Avoid logging sensitive information in production
-          echo "AUTHORIZED_CHAT_IDS=${{ secrets.AUTHORIZED_CHAT_IDS }}" # Avoid logging sensitive information in production
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          AUTHORIZED_CHAT_IDS: ${{ secrets.AUTHORIZED_CHAT_IDS }}
-
       - name: Run bot
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          AUTHORIZED_CHAT_IDS: ${{ secrets.AUTHORIZED_CHAT_IDS }}
+          BOT_TOKEN: "7385284091:AAFNrGKZQI4fiMcOw_3hch42L8-gWQ3h_No"
+          AUTHORIZED_CHAT_IDS: [851092968, 784548419]
         run: npm start
