@@ -2,10 +2,11 @@
   "name": "tg-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "Bot.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "ts-node ./Bot.ts",
-    "dev": "ts-node-dev ./Bot.ts",
+    "start": "ts-node ./index.ts",
+    "dev": "nodemon --exec ts-node ./index.ts",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
