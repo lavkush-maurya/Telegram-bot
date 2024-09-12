@@ -7,7 +7,7 @@ dotenv.config();
 const bot = new Bot("7449228499:AAGPhVNbK9aGHWbcj1Lkp2W_t_HtvuAThLU");
 
 // Parse authorized chat IDs from the environment variable
-const authorizedChatIds = [851092968];
+const authorizedChatIds = [851092968,6597763866];
 
 // Function to check if the chat ID is authorized
 const isAuthorized = (ctx: any) => {
